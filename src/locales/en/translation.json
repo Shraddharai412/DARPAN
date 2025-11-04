@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT US",
+    "products": "PRODUCTS",
+    "contact": "CONTACT",
+    "guest": "Guest / Sign-in",
+    "language": "English"
+  },
+  "hero": {
+    "title": "Darpan Pure: The Purity Your Kitchen Deserves.",
+    "subtitle": "Experience the unadulterated goodness of 100% natural, Cold-Pressed Mustard Oil. Trusted Quality. Trusted Health.",
+    "ctaAmazon": "Buy on Amazon",
+    "ctaFlipkart": "Buy on Flipkart"
+  },
+  "product": {
+    "smallLabel": "OUR ONLY PRODUCT",
+    "title": "Darpan Pure Cold-Pressed Mustard Oil",
+    "desc": "Crafted from the finest mustard seeds, our oil preserves the authentic, pungent flavor and powerful nutritional profile essential for traditional Indian cuisine.",
+    "notes": [
+      "100% Cold-Pressed Purity: Retains natural aroma and nutrients.",
+      "Rich in Omega-3 and Omega-6: Essential fatty acids for heart health.",
+      "High Smoke Point: Ideal for deep frying and traditional Indian cooking.",
+      "Anti-Inflammatory Properties: Promotes overall wellness.",
+      "Certified Quality: Meeting strict national and international standards."
+    ],
+    "buyNote": "Note: Orders are handled exclusively by our e-commerce partners."
+  },
+  "why": {
+    "smallLabel": "UNCOMPROMISING QUALITY",
+    "title": "Why Choose Only Darpan Pure?",
+    "cards": [
+      { "title": "Certified 100% Pure", "text": "Our oil undergoes rigorous testing ensuring zero adulteration." },
+      { "title": "Superior Cold-Pressed Process", "text": "We use time-honoured cold-pressing to preserve nutrients and aroma." },
+      { "title": "Health & Wellness Focus", "text": "High monounsaturated fats that support heart health." }
+    ]
+  },
+  "story": {
+    "smallLabel": "OUR HERITAGE, YOUR HEALTH",
+    "title": "The Story of Darpan Pure",
+    "text1": "Darpan Pure was born from a simple promise: to deliver mustard oil that is pure and honest as nature intended.",
+    "readMore": "Read Our Full Journey →"
+  },
+  "offers": {
+    "smallLabel": "VALUE FOR PURITY",
+    "title": "Exclusive Deals for Darpan Customers",
+    "cards": [
+      { "title": "Amazon Bulk Saver", "desc": "Get 10% off when you purchase two 5L jars on Amazon this month.", "cta": "View Offer" },
+      { "title": "Flipkart Festive Combo", "desc": "A free recipe book with every purchase over 2L on Flipkart.", "cta": "View Offer" },
+      { "title": "First Time Buyer Discount", "desc": "Special introductory discount for new customers on our partner sites.", "cta": "Shop Now" }
+    ]
+  },
+  "timeline": {
+    "smallLabel": "OUR GROWTH TIMELINE",
+    "title": "The Darpan Story: Milestones Achieved",
+    "items": [
+      { "year": "2018", "title": "Founding and Establishment", "desc": "The manufacturing unit was established with a focus on cold-press technology." },
+      { "year": "2020", "title": "First Batch Certification", "desc": "Achieved initial FSSAI and quality control certifications for the mustard oil." },
+      { "year": "2022", "title": "Brand Launch: Darpan Pure", "desc": "Launched the Darpan brand and began supplying regional distributors." },
+      { "year": "2023", "title": "E-commerce Partnership", "desc": "Successful integration with Amazon and Flipkart for nationwide reach." },
+      { "year": "2025", "title": "Digital Presence Launch", "desc": "Launched the dedicated Darpan website to enhance brand trust." }
+    ]
+  },
+  "awardsTitle": "Awards & Recognitions",
+  "testimonials": {
+    "smallLabel": "HEAR FROM OUR CUSTOMERS",
+    "title": "What People Say About Darpan",
+    "cards": [
+      { "quote": "The aroma is unmatched. The quality is exceptional for packaged oil.", "author": "Priya Sharma, Home Chef" },
+      { "quote": "We switched from a major brand to Darpan; the difference is clear.", "author": "Rajesh Kumar, Nutritionist" },
+      { "quote": "My doctor suggested cold-pressed oil; Darpan has been the perfect choice.", "author": "Anita Singh, Consumer" }
+    ]
+  },
+  "videos": {
+    "smallLabel": "WATCH OUR STORY",
+    "title": "Darpan Brand Videos & Recipe Tips",
+    "cards": [
+      { "title": "Darpan - The Purity Promise" },
+      { "title": "5 Healthy Mustard Oil Recipes" },
+      { "title": "Behind the Scenes: Cold Pressing" }
+    ]
+  },
+  "blogs": {
+    "smallLabel": "KNOWLEDGE CENTER",
+    "title": "Health, Cooking, and Purity Insights",
+    "cards": [
+      { "title": "The Ancient Benefits of Mustard Oil", "summary": "Why mustard oil has been a staple in Indian kitchens for centuries." },
+      { "title": "Cold-Pressed vs. Refined", "summary": "A detailed comparison of manufacturing methods." },
+      { "title": "5 Dishes to Cook with Darpan Oil", "summary": "Simple aromatic recipes to bring out the best flavor." }
+    ],
+    "viewAll": "View All Articles →"
+  },
+  "contact": {
+    "smallLabel": "GET IN TOUCH",
+    "title": "Inquiry & Location Details",
+    "addressHeading": "Reach Our Darpan Factory",
+    "address": "Darpan Pure Manufacturing Unit, Plot No. 42, Industrial Area, Sector-8, Noida - 201301, Uttar Pradesh, India",
+    "phone": "+91 98765 43210 (Sales)",
+    "email": "info@darpanpureoil.com",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "message": "Your Message / Feedback",
+      "send": "Send Message",
+      "success": "Message Sent! Thank you. We will get back to you shortly."
+    }
+  },
+  "footer": {
+    "brand": "Darpan Pure",
+    "desc": "Dedicated to providing the purest, most authentic Cold-Pressed Mustard Oil since 20XX.",
+    "links": [ "Home", "About Us", "Products", "Contact" ],
+    "resources": [ "Media Coverage", "Health Blogs", "Current Offers", "Certifications" ],
+    "shopNow": "Order directly from our trusted partners.",
+    "amazon": "Amazon",
+    "flipkart": "Flipkart",
+    "copyright": "© {{year}} Darpan Pure. All rights reserved."
+  }
+}
