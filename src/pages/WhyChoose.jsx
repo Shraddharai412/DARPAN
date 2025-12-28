@@ -4,7 +4,7 @@ const WhyChoose = () => {
   const cards = [
     {
       id: 1,
-      image: "/assets/pure.jpg",
+      image: "/assets/pure.webp",
       title: "Certified 100% Pure",
       description:
         "Our oil undergoes rigorous testing and holds certifications ensuring zero adulteration. What you get is nature's best, untouched.",
@@ -12,7 +12,7 @@ const WhyChoose = () => {
     },
     {
       id: 2,
-      image: "/assets/cold-pressed-icon.jpg",
+      image: "/assets/cold-pressed-icon.webp",
       title: "Superior Cold-Pressed Process",
       description:
         "We utilize traditional cold-press machines to maintain the oil's vital nutrients, natural aroma, and essential healthy fats (Omega-3).",
@@ -20,7 +20,7 @@ const WhyChoose = () => {
     },
     {
       id: 3,
-      image: "/assets/health.jpg",
+      image: "/assets/health.webp",
       title: "Health & Wellness Focus",
       description:
         "The high monounsaturated fat content is excellent for cardiovascular health, promoting a healthier lifestyle for your entire family.",
@@ -50,6 +50,7 @@ const WhyChoose = () => {
               <img
                 src={card.image}
                 alt={card.title}
+                loading="lazy"
                 className="w-full h-48 object-cover"
               />
 

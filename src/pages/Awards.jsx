@@ -4,25 +4,25 @@ const AwardsSection = () => {
   const awards = [
     {
       id: 1,
-      image: "/assets/A1.png",
+      image: "/assets/A1.webp",
       publication: "Economic Times",
       description: "The Rise of Darpan in Edible Oils",
     },
     {
       id: 2,
-      image:"/assets/A2.png",
+      image:"/assets/A2.webp",
       publication: "Food & Health Magazine",
       description: "Why Cold-Pressed is the Future",
     },
     {
       id: 3,
-      image: "/assets/A3.png",
+      image: "/assets/A3.webp",
       publication: "India Quality Council",
       description: "2024 Purity Award Winner",
     },
     {
       id: 4,
-      image: "/assets/A4.png",
+      image: "/assets/A4.webp",
       publication: "Local News Network",
       description: "Darpan's Impact on Regional Sourcing",
     },
@@ -49,6 +49,7 @@ const AwardsSection = () => {
               {/* Image */}
               <div className="rounded-xl overflow-hidden h-32 flex items-center justify-center mb-6">
                 <img
+                loading="lazy"
                   src={award.image}
                   alt={award.publication}
                   className="h-full w-auto object-contain"

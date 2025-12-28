@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 const HeroSection = () => {
   // Replace these with your actual images
   const images = [
-    "assets/im1.jpg",
-    "assets/im2.jpg",
-    "assets/im3.jpg",
+    "assets/im1.webp",
+    "assets/im2.webp",
+    "assets/im3.webp",
   ];
 
   const [current, setCurrent] = useState(0);
@@ -25,6 +25,7 @@ const HeroSection = () => {
         <img
           key={index}
           src={img}
+          loading="lazy"
           alt={`slide-${index}`}
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
             index === current ? "opacity-100" : "opacity-0"
@@ -49,14 +50,14 @@ const HeroSection = () => {
          className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 px-6 rounded-full flex items-center gap-2"
         >
             
-          <img src="/assets/amazonlogo.png" alt="Amazon" className="w-5 h-5" />
+          <img src="/assets/amazonlogo.webp" loading="lazy" alt="Amazon" className="w-5 h-5" />
             Buy on Amazon
         </a>
         <a
           href="https://www.flipkart.com/art-world-tripple-sun-moon-star-mandala-hippie-psychedelic-boho-bohemian-cotton-decorative-wall-hanging-tapestry-poster-40-x-30-inches/p/itm40fd6c2123527?pid=TPYFYRHFJ5ZV7GQB&lid=LSTTPYFYRHFJ5ZV7GQBWWCBEF&marketplace=FLIPKART&store=arb&srno=b_1_4&otracker=nmenu_sub_Home%20%26%20Furniture_0_Home%20Decor&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L1_view-all&fm=organic&iid=c6a0d46a-e162-4944-8430-5cff4d5d3b58.TPYFYRHFJ5ZV7GQB.SEARCH&ppt=None&ppn=None&ssid=znviz77jhs0000001761748795103"
           className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full flex items-center gap-2"
         >
-         <img src="/assets/flipkart.png" alt="Flipkart" className="w-5 h-5" />
+         <img src="/assets/flipkart.webp"  loading="lazy" alt="Flipkart" className="w-5 h-5" />
             Buy on Flipkart
         </a>
       </div>

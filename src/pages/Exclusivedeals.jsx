@@ -8,7 +8,7 @@ const ExclusiveDeals = () => {
         "Get 10% off when you purchase two 5L jars on Amazon this month.",
       linkText: "View Offer",
       color: "border-yellow-500 hover:shadow-yellow-200",
-      image: "/assets/amazondeal.jpeg",
+      image: "/assets/amazondeal.webp",
     },
     {
       title: "Flipkart Festive Combo",
@@ -16,7 +16,7 @@ const ExclusiveDeals = () => {
         "A free recipe book with every purchase over 2L on Flipkart.",
       linkText: "View Offer",
       color: "border-red-500 hover:shadow-red-200",
-      image: "/assets/FlipkartOffer.jpg",
+      image: "/assets/FlipkartOffer.webp",
     },
     {
       title: "First Time Buyer Discount",
@@ -24,7 +24,7 @@ const ExclusiveDeals = () => {
         "Special introductory discount for new customers on our partner sites.",
       linkText: "Shop Now",
       color: "border-gray-800 hover:shadow-gray-200",
-      image: "/assets/firstorder.png",
+      image: "/assets/firstorder.webp",
     },
   ];
 
@@ -50,6 +50,7 @@ const ExclusiveDeals = () => {
               <img
                 src={deal.image}
                 alt={deal.title}
+                loading="lazy"
                 className="w-full h-48 object-cover"
               />
 

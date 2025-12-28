@@ -27,7 +27,8 @@ const AboutSection = () => {
               BEST SELLER
             </span>
             <img
-              src="/assets/bottle.jpeg"
+              src="/assets/bottle.webp"
+              loading="lazy"
               alt="Darpan Mustard Oil Bottle"
               className="w-[50%] h-auto rounded-xl drop-shadow-2xl"
             />
@@ -74,7 +75,7 @@ const AboutSection = () => {
   rel="noopener noreferrer"
   className="flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition"
 >
-  <img src="/assets/amazonlogo.png" alt="Amazon" className="w-5 h-5" />
+  <img src="/assets/amazonlogo.webp" loading="lazy" alt="Amazon" className="w-5 h-5" />
   Buy on Amazon
 </a>
 
@@ -84,7 +85,7 @@ const AboutSection = () => {
   rel="noopener noreferrer"
   className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition"
 >
-  <img src="/assets/flipkart.png" alt="Flipkart" className="w-5 h-5" />
+  <img src="/assets/flipkart.webp" loading="lazy" alt="Flipkart" className="w-5 h-5" />
   Buy on Flipkart
 </a>
 

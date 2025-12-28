@@ -5,19 +5,19 @@ const ProductDetails = () => {
   const products = {
     "1 LTR": {
       price: 200,
-      images: ["/assets/1-liter-mustard-oil.png", "/assets/1-liter-mustard-oil.png", "/assets/1-liter-mustard-oil.png"],
+      images: ["/assets/1-liter-mustard-oil.webp", "/assets/1-liter-mustard-oil.webp", "/assets/1-liter-mustard-oil.webp"],
       amazonLink: "https://www.amazon.com/Minetom-Curtain-Lights-Dimmable-Powered/dp/B0CYLKRRQX/ref=sr_1_28?_encoding=UTF8&content-id=amzn1.sym.4da186f5-145b-4e27-9ae2-777c48d6d9cd&dib=eyJ2IjoiMSJ9.GdanU5QIn-zMLe1wuFHlxFfOFHsMSbV6bP_Pw75NALfyMX-GOowoklIj7es9PpCmxx0spN86nGMNcICzl7Phg2l7bQ-XE2gsskIihyyEi4Kk7VMnZA45wh_8iuFr69SNSMsESVYuC8tnmzcYuUx1wNvF2PAGoH3j2hLaYXqx82uDXG13O8v44oC-pEmdAwAYF5lZfGla6A8u9lvQAQmGEXKe_hfYflWoLt8xbZE35i_d2X0rQm6-2snyU1JKWjOVYQVvNcbj4PYP3x1fMs5-_t9d5QYKXvme6A6XHQjwYEg.7arFGMUSUOSLTTwORJntYS-nbaWqgNNzabnU5FiN0kU&dib_tag=se&keywords=home%2Bdecor&pd_rd_r=5ab6f769-5610-4cff-8251-804f5ce9ea19&pd_rd_w=z5zik&pd_rd_wg=Qj6cr&qid=1761749053&sr=8-28&th=1",
       flipkartLink: "https://www.flipkart.com/unnati-times-evil-eyes-wall-hanging-decorative-item/p/itm05aeedc4fb0cd?pid=WDCH89YKGDZFZZHN&lid=LSTWDCH89YKGDZFZZHNHMNVDN&marketplace=FLIPKART&store=arb&srno=b_1_9&otracker=nmenu_sub_Home%20%26%20Furniture_0_Home%20Decor&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L1_view-all&fm=organic&iid=8ee0a7cf-890b-4b27-b36c-8ffc703a69d9.WDCH89YKGDZFZZHN.SEARCH&ppt=browse&ppn=browse&ssid=3suvo9t9kg0000001761748941815",
     },
     "2 LTR": {
       price: 380,
-      images: ["/assets/2-litre-asli-kachi-ghani-mustard-oil.jpg", "/assets/2-litre-asli-kachi-ghani-mustard-oil.jpg", "/assets/2-litre-asli-kachi-ghani-mustard-oil.jpg"],
+      images: ["/assets/2-litre-asli-kachi-ghani-mustard-oil.webp", "/assets/2-litre-asli-kachi-ghani-mustard-oil.webp", "/assets/2-litre-asli-kachi-ghani-mustard-oil.webp"],
       amazonLink: "https://www.amazon.com/SINAMER-Upgrade-Curtain-Lighting-Christmas/dp/B0894D1RQT/ref=pd_sbs_d_sccl_2_4/130-4745461-7026331?pd_rd_w=vkWED&content-id=amzn1.sym.2cd14f8d-eb5c-4042-b934-4a05eafd2874&pf_rd_p=2cd14f8d-eb5c-4042-b934-4a05eafd2874&pf_rd_r=2YDP1R73PE6AHSFPJXFG&pd_rd_wg=wJQqq&pd_rd_r=9520a956-dc7a-4381-9340-69dedf204ad3&pd_rd_i=B0894D1RQT&psc=1",
       flipkartLink: "https://www.flipkart.com/mehruna-dream-catchers-wall-hanging-home-decoration-items-lightening-positivity-feather-catcher/p/itme06f6f2a481e4?pid=WCHGCYJEHKY6VJKZ&lid=LSTWCHGCYJEHKY6VJKZIPQ0DD&marketplace=FLIPKART&store=arb&srno=b_1_23&otracker=nmenu_sub_Home%20%26%20Furniture_0_Home%20Decor&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L1_view-all&fm=organic&iid=8ee0a7cf-890b-4b27-b36c-8ffc703a69d9.WCHGCYJEHKY6VJKZ.SEARCH&ppt=hp&ppn=homepage&ssid=3suvo9t9kg0000001761748941815",
     },
     "5 LTR": {
       price: 972.38,
-      images: ["/assets/5-lit.jpeg", "/assets/5-lit.jpeg", "/assets/5-lit.jpeg"],
+      images: ["/assets/5-lit.webp", "/assets/5-lit.webp", "/assets/5-lit.webp"],
       amazonLink: "https://www.amazon.com/Minetom-Curtain-Lights-Dimmable-Powered/dp/B0CSSLD72K/ref=sr_1_28?_encoding=UTF8&content-id=amzn1.sym.4da186f5-145b-4e27-9ae2-777c48d6d9cd&dib=eyJ2IjoiMSJ9.GdanU5QIn-zMLe1wuFHlxFfOFHsMSbV6bP_Pw75NALfyMX-GOowoklIj7es9PpCmxx0spN86nGMNcICzl7Phg2l7bQ-XE2gsskIihyyEi4Kk7VMnZA45wh_8iuFr69SNSMsESVYuC8tnmzcYuUx1wNvF2PAGoH3j2hLaYXqx82uDXG13O8v44oC-pEmdAwAYF5lZfGla6A8u9lvQAQmGEXKe_hfYflWoLt8xbZE35i_d2X0rQm6-2snyU1JKWjOVYQVvNcbj4PYP3x1fMs5-_t9d5QYKXvme6A6XHQjwYEg.7arFGMUSUOSLTTwORJntYS-nbaWqgNNzabnU5FiN0kU&dib_tag=se&keywords=home%2Bdecor&pd_rd_r=5ab6f769-5610-4cff-8251-804f5ce9ea19&pd_rd_w=z5zik&pd_rd_wg=Qj6cr&qid=1761749053&sr=8-28&th=1",
       flipkartLink: "https://www.flipkart.com/stone-creation-radha/p/itm7a91cddd94f4c?pid=WDCHDTCHFDD4WSFP&lid=LSTWDCHDTCHFDD4WSFPGSCAKR&marketplace=FLIPKART&store=arb&srno=b_1_38&otracker=nmenu_sub_Home%20%26%20Furniture_0_Home%20Decor&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L1_view-all&fm=organic&iid=en_xDhtymIjK6DKN2Fc-kGmTN7N_JHEp-Ll99Y5BpG0xxK0R1enpg3kgO-quibKav0EeTs0qmgJtZhFMasVZPkkkg%3D%3D&ppt=browse&ppn=browse",
     },
@@ -37,6 +37,7 @@ const ProductDetails = () => {
         <div className="bg-gray-50 rounded-2xl shadow-md flex justify-center items-center p-6 mb-4">
           <img
             src={selectedImage}
+            loading="lazy"
             alt="Darpan Pure Mustard Oil"
             className="w-[70%] h-auto transition-all duration-300"
           />
@@ -46,6 +47,7 @@ const ProductDetails = () => {
             <img
               key={idx}
               src={img}
+              loading="lazy"
               alt={`Thumbnail ${idx + 1}`}
               onClick={() => setSelectedImage(img)}
               className={`w-20 h-20 object-cover cursor-pointer rounded-lg border-2 transition ${

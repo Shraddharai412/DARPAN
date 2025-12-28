@@ -41,12 +41,13 @@ const Navbar = () => {
           onClick={() => handleScroll("home")}
         >
           <img
-            src="/assets/Logo.png"
+            src="/assets/Logotop.webp"
+            loading="lazy"
             alt="logo"
             className="w-10 h-10 rounded-lg"
           />
           <h1 className="text-2xl font-bold">
-            <span className="text-[#b71c1c]">DARPAN</span>{" "}
+            <span className="text-[#b71c1c]">SDT</span>{" "}
             <span className="text-[#f4b400]">PURE</span>
           </h1>
         </div>

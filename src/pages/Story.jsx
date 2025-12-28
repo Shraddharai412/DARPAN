@@ -22,7 +22,8 @@ const StorySection = () => {
         <div className="relative rounded-2xl bg-[#6b0f1a] p-4 shadow-2xl h-[420px] flex items-center justify-center">
   <div className="rounded-xl overflow-hidden w-full h-full bg-white/10 flex items-center justify-center">
     <img
-      src="/assets/MAnchinary.jpg"
+      src="/assets/MAnchinary.webp"
+      loading="lazy"
       alt="Darpan Factory & Certifications"
       className="w-full h-full object-cover rounded-xl"
     />
