@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 const HeroSection = () => {
   // Replace these with your actual images
   const images = [
-    "assets/im1.webp",
-    "assets/im2.webp",
-    "assets/im3.webp",
+    "assets/imgg1.webp",
+    "assets/imgg2.webp",
+    "assets/imgg3.webp",
   ];
 
   const [current, setCurrent] = useState(0);
